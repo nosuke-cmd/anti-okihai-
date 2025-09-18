@@ -1,3 +1,12 @@
 title: 置き配ニュース
 description: 最新の置き配情報と家庭用防犯カメラのご案内
 theme: jekyll-theme-cayman
+sass:
+  style: compressed
+
+# 追加CSSを読み込む
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: /assets/css/style.css
